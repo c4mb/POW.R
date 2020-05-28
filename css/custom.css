@@ -17,7 +17,7 @@
 /* Hero
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 .hero {
-  background-image: url('../images/hero-bg.jpg');
+  background-image: url('../images/hero-bg-retina.jpg');
   background-size: cover;
   background-position: center;
   color: #fff;
@@ -33,19 +33,19 @@
   margin: 10vh 0 10vh;
 }
 .hero-span {
-    color: #aaaaaa;
+    color: #CBD5E0;
 }
 
 /* Help
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 .product {
-  border-bottom: 1px solid #ddd;
+  border-bottom: 1px solid #E2E8F0;
 }
 
 /* More to come
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 .comingsoon {
-  background-color: #f1f1f1;
+  background-color: #EDF2F7;
   text-align: center;
 }
 
