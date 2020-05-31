@@ -46,24 +46,24 @@ html {
 	--theme-hue: 0;					/* white */
 	--accent-hue: 194;			/* blue */
 
-	--text-color-richer: #1A202C;			/* #0d0d0d		*/
+	--text-color-richer: #000000;			/* #0d0d0d		*/
 	--text-color-normal: #1A202C;		/* #222222 		text color; button:hover:focus color */
-	--text-color-softer: #4A5568;		/* #555555 		button color; button:hover border */
+	--text-color-softer: #2D3748;		/* #555555 		button color; button:hover border */
 
   --accent-color: none;				/* #33C3F0 		link; button-primary bg+border; textarea,select:focus border */
-	--accent-color-border: #ffffff;	 /* Added by Cam */
+	--accent-color-border: #E2E8F0;	 /* Added by Cam */
   --accent-color-hover: none;	 /* #1EAEDB 		link hover; button-primary:hover:focus bg+border */
-	--accent-color-border-hover: #CBD5E0;	/* Added by Cam */
+	--accent-color-border-hover: #ffffff;	/* Added by Cam */
 
-  --border-color: #A0AEC0;					/* #bbbbbb		button border */
-	--border-color-softer: #CBD5E0	/* #d1d1d1		textarea,select,code,td,hr border	 */
+  --border-color: #1A202C;					/* #bbbbbb		button border */
+	--border-color-softer: #2D3748	/* #d1d1d1		textarea,select,code,td,hr border	 */
 
 	--background-color: white;				/* transparent body background; textarea,select background */
 	--background-color-softer: #EDF2F7;
   --code-background: #EDF2F7;			/* #f1f1f1 		code background*/
 
-	--button-primary-color: #ffffff;
-	--button-primary-color-hover: #CBD5E0 ; /* Added by Cam */
+	--button-primary-color: #E2E8F0;
+	--button-primary-color-hover: #ffffff; /* Added by Cam */
 
 	/* Note: Skeleton was based off a 10px font sizing for REM  */
 	/* 62.5% of typical 16px browser default = 10px */
@@ -135,8 +135,8 @@ html {
 body {
   font-size: 2.8rem;		/* changed from 15px in orig skeleton */
   line-height: 1.6;
-  font-weight: 400;
-  font-family: 'Teko', sans-serif;
+  font-weight: 300;
+	font-family: 'Teko', sans-serif;
   color: var(--text-color-normal);
   background-color: var(--background-color);;
 }

@@ -1,7 +1,7 @@
 /* Shared
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 .button {
-  border-radius: 100px;
+  border-radius: 4px;
 }
 
 /* Sections
@@ -36,16 +36,24 @@
     color: #A0AEC0;
 }
 
-/* Help
+/* Products
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
+.button-product {
+  color: #F7FAFC;
+  background-color: #1A202C;
+}
+.button-product:hover {
+  color: #ffffff;
+  background-color: #000000;
+}
 .product {
-  border-bottom: 1px solid #E2E8F0;
+  border-bottom: 2px solid #F7FAFC;
 }
 
 /* More to come
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 .comingsoon {
-  background-color: #EDF2F7;
+  background-color: #F7FAFC;
   text-align: center;
 }
 
@@ -55,7 +63,10 @@
   background-color: #000000;
   color: #fff;
   padding: 8rem 0 7rem;
-  text-align: center;
+}
+.footer-flex {
+  display: flex;
+  justify-content: space-between;
 }
 
 /* Bigger than 550 */
