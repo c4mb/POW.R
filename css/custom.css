@@ -64,15 +64,15 @@
   color: #fff;
   padding: 8rem 0 7rem;
 }
-.footer-flex {
-  display: flex;
-  justify-content: space-between;
-}
 
 /* Bigger than 550 */
 @media (min-width: 550px) {
   .section {
     padding: 12rem 0 11rem;
+  }
+  .footer-flex {
+    display: flex;
+    justify-content: space-between;
   }
 }
 
